@@ -1,7 +1,47 @@
 #grad {
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
-  }
-  #grad{
-    text-align: center;
-  }
+  background-image: linear-gradient(to right, rgba(0, 238, 255, 0.966), rgb(0, 26, 255));
+}
+
+#grad {
+  text-align: center;
+
+}
+
+.caixa {
+  padding: 100px;
+  border-radius: 100px
+}
+
+input[type="email"],
+input[type="password"] {
+  background-color: rgba(186, 250, 255, 0.966);
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+}
+
+input[type="submit"], input[type="reset"] {
+  margin: 10px;
+  border-radius: 20px;
+  border: none;
+  padding: 1%;
   
+}
+
+div {
+  background-image: linear-gradient(to left, rgba(0, 238, 255, 0.966), rgb(0, 26, 255));
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 1%;
+}
+header{
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
