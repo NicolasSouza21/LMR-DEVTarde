@@ -3,7 +3,11 @@
     height: 30vh;
     display: flex;
     justify-content: center;
+    margin: auto;
 }
-html{
-    font-family: Arial, Helvetica, sans-serif;
+body{
+background-color: black;}
+.carouselExampleAutoplaying{
+    width: 30vh;
+
 }
