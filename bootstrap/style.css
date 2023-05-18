@@ -6,8 +6,20 @@
     margin: auto;
 }
 body{
-background-color: black;}
+    background-color: black;
+     ;
+    background-repeat: no-repeat;
+    
+
+}
+
+
 .carouselExampleAutoplaying{
-    width: 30vh;
+    
+    width: 40vh;
+
+}
+.nav-item-dropdown{
+
 
 }
